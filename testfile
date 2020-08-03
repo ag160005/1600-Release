@@ -1,5 +1,5 @@
 #!/usr/bin/tcsh
-if ( $USER ==ec2-user ) then
+if ( $USER == ec2-user ) then
         echo "this is a ec2-instance"
 else
         echo "this is other user"
