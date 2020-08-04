@@ -4,3 +4,4 @@ if ( $USER == ec2-user ) then
 else
         echo "this is other user"
 endif
+echo "end of statement "

@@ -1,0 +1,9 @@
+#!/usr/bin/tcsh
+
+set a=10
+set b=20
+if ( $a == $b ) then
+	echo "value of a is equal to b"
+else 
+	echo "value of a is diff from b"
+endif
